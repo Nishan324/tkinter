@@ -1,0 +1,22 @@
+#2. Simple Arithmetic Calculator using grid method.
+from tkinter import*
+b=Tk()
+b.geometry('300x300')
+a=Button(b,text="7",font=('arial',20,'bold'),background='red').place(x=50,y=30)
+c=Button(b,text="8",font=('arial',20,'bold'),background='red').place(x=100,y=30)
+d=Button(b,text="9",font=('arial',20,'bold'),background='red').place(x=150,y=30)
+e=Button(b,text="/",font=('arial',20,'bold'),background='red').place(x=200,y=30)
+f=Button(b,text="4",font=('arial',20,'bold'),background='red').place(x=50,y=100)
+g=Button(b,text="5",font=('arial',20,'bold'),background='red').place(x=100,y=100)
+h=Button(b,text="6",font=('arial',20,'bold'),background='red').place(x=150,y=100)
+i=Button(b,text="*",font=('arial',20,'bold'),background='red').place(x=200,y=100)
+j=Button(b,text="1",font=('arial',20,'bold'),background='red').place(x=50,y=170)
+k=Button(b,text="2",font=('arial',20,'bold'),background='red').place(x=100,y=170)
+l=Button(b,text="3",font=('arial',20,'bold'),background='red').place(x=150,y=170)
+m=Button(b,text="+",font=('arial',20,'bold'),background='red').place(x=200,y=170)
+n=Button(b,text="0",font=('arial',20,'bold'),background='red').place(x=50,y=240)
+o=Button(b,text=".",font=('arial',20,'bold'),background='red').place(x=100,y=240)
+p=Button(b,text="=",font=('arial',20,'bold'),background='red').place(x=150,y=240)
+Q=Button(b,text="-",font=('arial',20,'bold'),background='red').place(x=200,y=240)
+
+b.mainloop()
